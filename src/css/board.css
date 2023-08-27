@@ -1,0 +1,70 @@
+/* .Board{
+    background-color: #ff8906;
+    padding: 30px;
+    text-align: center;
+}
+.BoardRow{
+    margin:20px;
+} */
+.boardPage{
+  margin-top: 20px;
+}
+.BoardWrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .Board {
+    background-color:#006d77;
+    width: auto;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 4px 6px 20px 4px rgba(0, 0, 0, 0.19);
+    align-items: center;
+    color:white;
+    margin-left: 30%;
+    margin-top: 2%;
+    border-radius: 20px;
+  }
+  
+  .BoardRow {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .BoardHeading {
+    justify-content: center;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #fffffe;
+    list-style-type: none;
+  }
+  
+  .HistoryContainer  {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    color:#0f0e17;
+  }
+  
+  .HistoryList {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .BoardFooter {
+    position: relative;
+    left:-120px;
+    top:100px;
+  }
+  .LinkButton{
+    margin-left: 42%;
+    color:#0f0e17;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .LinkButton:hover{
+    text-decoration: underline;
+  }
